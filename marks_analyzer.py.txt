@@ -1,0 +1,14 @@
+students = {
+    "Rahul": 85,
+    "Anita": 92,
+    "Kiran": 76,
+    "Meena": 89,
+    "Arjun": 95
+}
+
+average = sum(students.values()) / len(students)
+
+topper = max(students, key=students.get)
+
+print("Average marks:", average)
+print("Topper:", topper, "-", students[topper])
